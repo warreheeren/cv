@@ -11,5 +11,4 @@ export class JobExperienceComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
