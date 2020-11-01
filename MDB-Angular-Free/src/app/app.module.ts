@@ -14,6 +14,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SocialComponent } from './social/social.component';
+import { CardComponent } from './job-experience/card/card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SocialComponent } from './social/social.component';
     JobExperienceComponent,
     SkillsComponent,
     NavbarComponent,
-    SocialComponent
+    SocialComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

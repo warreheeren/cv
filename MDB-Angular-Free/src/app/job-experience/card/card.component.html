@@ -1,0 +1,13 @@
+<div class="kaart">
+   <div class="kaart-title">
+      <h4>{{title}}</h4>
+      <div class="collapse-button" (click)="content.toggle(); toggleOpen();">
+         <i class="fas" [ngClass]="{'fa-plus': !open, 'fa-minus': open}"></i>
+      </div>
+   </div>
+   <div mdbCollapse #content="bs-collapse">
+      <p class="mt-4">
+         {{description}}
+      </p>
+   </div>
+</div>

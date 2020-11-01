@@ -1,6 +1,9 @@
 .app-container {
    display: flex;
-   align-items: flex-start;
    margin: 5rem 15rem;
    background-color: white;
+}
+
+.content {
+   width: 100%;
 }

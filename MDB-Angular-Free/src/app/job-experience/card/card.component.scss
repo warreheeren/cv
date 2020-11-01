@@ -1,0 +1,15 @@
+h4 {
+   font-weight: bolder;
+   margin: 0;
+}
+
+.kaart-title {
+   display: flex;
+   justify-content: space-between;
+}
+
+.collapse-button {
+   &:hover {
+      cursor: pointer;
+   }
+}
