@@ -6,19 +6,20 @@ import { JobExperienceComponent } from '../job-experience/job-experience.compone
 import { SkillsComponent } from '../skills/skills.component';
 
 const routes: Routes = [
-  { path: '', component: AboutMeComponent },
-  { path: 'interests', component: InterestsComponent },
-  { path: 'experience', component: JobExperienceComponent },
-  { path: 'skills', component: SkillsComponent }
+   { path: '', redirectTo: "about", pathMatch: "full" },
+   { path: 'about', component: AboutMeComponent },
+   { path: 'interests', component: InterestsComponent },
+   { path: 'experience', component: JobExperienceComponent },
+   { path: 'skills', component: SkillsComponent }
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes)
-  ],
-  exports: [
-    RouterModule
-  ],
-  declarations: []
+   imports: [
+      RouterModule.forRoot(routes)
+   ],
+   exports: [
+      RouterModule
+   ],
+   declarations: []
 })
 export class AppRoutingModule { }
